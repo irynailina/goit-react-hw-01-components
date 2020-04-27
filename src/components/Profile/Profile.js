@@ -1,5 +1,5 @@
 import React from "react";
-import user from '../../user.json';
+import user from '../Profile/user.json';
 
 // console.log(user);
 const styles = {width: 200}
