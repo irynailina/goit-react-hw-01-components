@@ -1,0 +1,28 @@
+.transactionHistory {
+    width: 872px;
+    height: 302px;
+    border: 0.5px solid grey;
+    margin-left: 150px;
+}
+
+.thead {
+    background-color: #00bcd4;
+    color: white;
+}
+
+.tbody {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    color: rgb(92, 105, 117);
+    line-height: 2;
+}
+
+.trOdd {
+    background-color: rgb(236, 242, 243);
+}
+
+.trEven {
+    background-color: #fff;
+}
+
