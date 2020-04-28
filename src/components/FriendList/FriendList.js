@@ -8,7 +8,6 @@ export const FriendList = ({ friends }) => {
     <>
       <ul className={styles.friendList}>
         {friends.map(friend => {
-          console.log(friend.isOnline);
           return <FriendListItem key={friend.id} friend={friend} />;
         })}
       </ul>

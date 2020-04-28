@@ -16,7 +16,6 @@ export const TransactionHistory = ({ items }) => {
 
       <tbody className={styles.tbody}>
         {items.map((item, idx) => {
-          console.log(idx);
           return <TransactionHistoryItem key={item.id} item={item} idx={idx} />;
         })}
       </tbody>
